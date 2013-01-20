@@ -2,11 +2,10 @@
 # we get 3, 5, 6 and 9. The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-max_num = 1000
-
 sum = 0
-five_iterator = 5
+max_num = 1000
 three_iterator = 3
+five_iterator = 5
 
 while(three_iterator < max_num or five_iterator < max_num):
     while(three_iterator < five_iterator):
