@@ -2,7 +2,7 @@
 #
 #What is the 10001st prime number?
 
-primes = [2]
+primes = [2] * 10001
 prime_index = 1
 cur_num = 3
 
@@ -13,7 +13,7 @@ while(prime_index != 10001):
             cur_num_is_prime = False
             break
     if(cur_num_is_prime):
-        primes.append(cur_num)
+        primes[prime_index] = cur_num
         prime_index += 1
     cur_num += 1
     
