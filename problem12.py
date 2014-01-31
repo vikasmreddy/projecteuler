@@ -4,7 +4,7 @@ num_on = 2
 while True:
     num_divisors = 0
     cur = 1
-    print "checking %d" % (triangle_num,)
+    #print "checking %d" % (triangle_num,)
     end = triangle_num
     while True:
         if triangle_num % cur == 0:
@@ -14,8 +14,8 @@ while True:
         if cur > end:
             break
 
-    print "triangle_num: %d, divisors: %d" % (triangle_num, num_divisors)
     if num_divisors > 500:
+        print "triangle_num: %d, divisors: %d" % (triangle_num, num_divisors)
         break
     
     triangle_num += num_on
